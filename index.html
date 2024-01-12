@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pato Garcia Portfolio</title>
+    <!-- BOOTSTRAP 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- BOXICONS CDN -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS STYLE LINK -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- RESPONSIVE STYLE LINK -->
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pato Garcia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#about-section">About</a>
+                    <a class="nav-link" href="#experience-section">Experience</a>
+                    <a class="nav-link" href="#projects-section">Projects</a>
+                    <a class="nav-link" href="#contact-section">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id= "hero" class="d-flex align-items-center">
+        <div class="hero container">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-end col-sm-12 d-flex justify-content-center" id="hero-img">
+                    <img src="assets/profile-pic.JPEG" alt="hero-img" >
+                </div>
+                <div class="col-lg-6 d-flex justify-content-start col-sm-12 d-flex justify-content-center" id="hero-text">
+                    <div class="copy">
+                        <div class="text-label">
+                            Hello, I'm
+                        </div>
+                        <div class="text-hero-bold">
+                            Pato Garcia 👋
+                        </div>
+                        <div class="text-hero-regular">
+                            Data Analyst
+                        </div>
+                        <div class="hero-btns">
+                            <a onclick="window.open('./assets/CV - Patricio Garcia.pdf')" class="btn" id="cv-btn">Download CV</a>
+                            <a href="#contact-section" class="btn" id="contact-btn">Contact Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id= "about-section" class="d-flex align-items-center">
+        <div class="container">
+            <div class="about-title">
+                <span id="about-small">Get to Know More</span>
+            </div>
+            <div class="about-title" >
+                <span id="about-big">About Me</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 col-sm-12">
+                    <div class="about-img">
+                        <img src="assets/about-pic.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-12">
+                    <div class="row column-gap-lg-4">
+                        <div class="col about-sqr">
+                            <i class='bx bxs-briefcase-alt-2 bx-lg'></i>
+                            <div>
+                                <span class="about-subtitle">Experience</span><br><span class="about-detail">1+ years<br>Data Analyst</span>
+                            </div>
+                        </div>
+                        <div class="col about-sqr">
+                            <i class='bx bxs-graduation bx-lg'></i>
+                            <div>
+                                <span class="about-subtitle">Education</span><br><span class="about-detail">B.S. in Genomic Biotechnology</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-explained">
+                        I became in love with the data analysis during my career when I saw the apliactions of bioinformatics in the real world. My goal is be working with a big company developing new ways to treat health problems with AI and the data manipulation. <br> I'm also like the web development and I'm making my way in the AI path slow but in good pace and don't forget the craft beer...IPA lover for real.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Experience Section -->    
+    <section id= "experience-section" class="d-flex align-items-center">
+        <div class="container">
+            <div class="about-title">
+                <span id="about-small">See some of my</span>
+            </div>
+            <div class="about-title" >
+                <span id="about-big">Experience</span>
+            </div>
+            <div class="row column-gap-4">
+                <div class="col experience-sqr">
+                    <div class="row">
+                        <div class="experience-sqr-title">Data Tools</div>
+                        <div class="col-xl-6 lg-6" id="experience-column">
+                            <ul>
+                                <li>
+                                    <i class='bx bxs-spreadsheet bx-lg'></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Excel
+                                        </span><br>Advance
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxs-data bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            SQL
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxl-python bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Python
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-6 lg-6" id="experience-column">
+                            <ul>
+                                <li>
+                                    <i class='bx bx-bar-chart-square bx-lg'></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Tableau
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bx-line-chart bx-lg'></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Power BI
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxl-graphql bx-lg'></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            R
+                                        </span><br>Basic
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col experience-sqr">
+                    <div class="row">
+                        <div class="experience-sqr-title">Software Tools</div>
+                        <div class="col-xl-6 lg-6" id="experience-column">
+                            <ul>
+                                <li>
+                                    <i class='bx bxl-html5 bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            HTML
+                                        </span><br>Advance
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxl-css3 bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            CSS
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxl-javascript bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Javascript
+                                        </span><br>Basic
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-6 lg-6" id="experience-column">
+                            <ul>
+                                <li>
+                                    <i class='bx bxl-git bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Git
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxl-bootstrap bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            Bootstrap 5
+                                        </span><br>Intermediate
+                                    </div>
+                                </li>
+                                <li>
+                                    <i class='bx bxl-nodejs bx-lg' ></i>
+                                    <div>
+                                        <span class="skill-bold">
+                                            node JS
+                                        </span><br>Basic
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="d-flex align-items-center" id="projects-section">
+        <div class="container">
+            <div class="about-title">
+                <span id="about-small">Browse My Recent</span>
+            </div>
+            <div class="about-title" >
+                <span id="about-big">Projects</span>
+            </div>
+            <div class="row column-gap-lg-4 column-gap-md-5 project-columns">
+                <div class="col-lg col-md-5 project-sqr">
+                    <div class="img-project1">
+                        <img src="assets/project1.jpg" alt="project1" class="project-img">
+                    </div>
+                    <div class="project-title">King County House Sales Prices 2014 - 2015</div>
+                    <div class="hero-btns">
+                        <a href="#" class="btn project-btn">Github</a>
+                        <a href="https://public.tableau.com/views/KingCountyWashingtonHouseSalesDashboard_17020032039090/Dashboard?:language=es-ES&:display_count=n&:origin=viz_share_link" class="btn project-btn">See More</a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-5 project-sqr">
+                    <div class="img-project1">
+                        <img src="assets/project2.jpg" alt="project1" class="project-img">
+                    </div>
+                    <div class="project-title">Sales Analytics Dashboard for Business Insights</div>
+                    <div class="hero-btns">
+                        <a href="#" class="btn project-btn">Github</a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiZWUxOTIyYTItN2JiNy00ZTBjLWJhZTQtYzkwMTI1YTU3MzYwIiwidCI6IjIyMjU5YjBjLTY4NjctNDU5OS05YjAyLTI1MWY1MWZkNmVmZiJ9" class="btn project-btn">See More</a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-12 project-sqr">
+                    <div class="img-project1">
+                        <img src="assets/project3.jpg" alt="project1" class="project-img">
+                    </div>
+                    <div class="project-title">Simple Mnist Neural Network using just Numpy</div>
+                    <div class="hero-btns">
+                        <a href="#" class="btn project-btn">Github</a>
+                        <a href="https://www.kaggle.com/code/patriciogar14/simple-mnist-nn-using-numpy" class="btn project-btn">See More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id= "contact-section" class="d-flex align-items-center">
+        <div class="container">
+            <div class="about-title">
+                <span id="about-small">Get in Touch</span>
+            </div>
+            <div class="about-title">
+                <span id="about-big">Contact Me</span>
+            </div>
+            <div class="row contact-colum">
+                <div class="col contact-sqr">
+                    <div class="contact-info">
+                        <i class='bx bxs-envelope bx-md'></i>
+                        <a class="contact-info-text" href="mailto:patricio.gar14@gmail.com">patricio.gar14@gmail.com</a>
+                    </div>
+                    <div class="contact-info">
+                        <i class='bx bxl-linkedin-square bx-md'></i>
+                        <a href="https://www.linkedin.com/in/pato-garcia/" class="contact-info-text">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <div class="nav-links">
+                <a class="nav-link" href="#about-section">About</a>
+                <a class="nav-link" href="#experience-section">Experience</a>
+                <a class="nav-link" href="#projects-section">Projects</a>
+                <a class="nav-link" href="#contact-section">Contact</a>
+                </div>
+            </div>
+        </nav>
+            <p>Copyright &#169; 2024 Pato Garcia. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
